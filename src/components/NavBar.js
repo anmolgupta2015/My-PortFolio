@@ -2,10 +2,9 @@ import {Navbar,Container,Nav} from 'react-bootstrap';
 import { useState,useEffect } from 'react';
 import pic from '../assets/img/logo.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon2.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
-
-
+// import navIcon2 from '../assets/img/nav-icon2.svg';
+// import navIcon3 from '../assets/img/nav-icon3.svg';
+import Logo1 from "../assets/img/Logo1.jpg";
 export const NavBar = () =>{
 
     const [activeLink,setActiveLink] = useState('home');
@@ -49,12 +48,12 @@ export const NavBar = () =>{
                 <div className="social-icon">
                     <a href='https://www.linkedin.com/in/anmol-gupta-329a36253/' target='_blank'><img src={navIcon1} alt="" /></a>
                     <a href='https://github.com/anmolgupta2015' target='_blank'><img src="https://cdn-icons-png.flaticon.com/128/10090/10090320.png" alt="" /></a>
-                    <a href='https://drive.google.com/file/d/1D1bfdF_YZL5Cv5N_2NV0USzzyibkcFVB/view?pli=1' target='_blank'><img src="https://cdn-icons-png.flaticon.com/128/10433/10433154.png" alt="" /></a>
+                    <a href='https://drive.google.com/file/d/1xVRto9iqPnMFywTjXB3jUhp1pS1ULjrD/view?usp=sharing' target='_blank'><img src="https://cdn-icons-png.flaticon.com/128/10433/10433154.png" alt="" /></a>
                 </div>
                 {/* <button className='vvd' onClick={()=>console.log('connect')}> <span>Let's Connect</span>  </button> */}
             </span>
             <Navbar.Brand href="#home">
-                <img src={pic} alt="Logo" />
+                <img src={Logo1} alt="Logo" id="MyImg" />
             </Navbar.Brand>
           </Navbar.Collapse>
         </Container>

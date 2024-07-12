@@ -22,13 +22,13 @@ export const Projects = () => {
           title: "DALL-E Clone",
           description: "Interactive Image Generating using Open-AI API and a community sharing platform to share images one may generate using creative thinking ",
           imgUrl: ImageAlchemy,
-      
+          link:"https://github.com/anmolgupta2015/Image-Alchemy",
         },
         {
             title: "Sorting Visualizer",
             description: "Implemented a visual representation of popular sorting algorithms (e.g., Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, Quick Sort) using C++",
             imgUrl: Sorting,
-           
+           link:"https://github.com/anmolgupta2015/Sorting-Visualizer"
           },
       ];
 
